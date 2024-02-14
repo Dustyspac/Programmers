@@ -6,4 +6,4 @@ function solution(s) {
       return s.substr(s.length/2, 1)
     }
     return answer;
-}
+};
