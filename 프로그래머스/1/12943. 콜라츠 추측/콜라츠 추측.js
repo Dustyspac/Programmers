@@ -10,4 +10,4 @@ function solution(num) {
     }
     // num이 1이라면 0 을 리턴 -> else if
 return answer = -1
-}
+};
