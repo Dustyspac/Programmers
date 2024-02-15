@@ -1,10 +1,10 @@
 function solution(n, m) {
-    let answer = [];
     let maxNum = Math.max(n,m);
     let minNum = Math.min(n,m);
 
 function gcd(minNum, maxNum){
-    return(minNum % maxNum) === 0 ? maxNum : gcd(maxNum, minNum % maxNum)
+    console.log(minNum, maxNum)
+    return(maxNum % minNum) === 0 ? minNum : gcd(maxNum % minNum, minNum)
 }
 
 function lcm(minNum, maxNum){
@@ -12,5 +12,5 @@ function lcm(minNum, maxNum){
 }
 
 return [gcd(n, m), lcm(n, m)];
-    
+
 }
