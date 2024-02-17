@@ -6,6 +6,6 @@ function solution(n) {
       }else{
         answer += "박"
       }
-    }
+    };
     return answer;
 };
