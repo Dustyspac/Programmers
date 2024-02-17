@@ -8,4 +8,4 @@ function solution(left, right) {
     }
   }
   return answer;
-}
+};
