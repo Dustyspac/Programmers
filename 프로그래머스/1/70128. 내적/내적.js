@@ -4,4 +4,4 @@ function solution(a, b) {
       answer += a[i]*b[i]
     }
     return answer;
-}
+};
